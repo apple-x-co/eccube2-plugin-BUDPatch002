@@ -30,31 +30,8 @@
 class BUDPatch002 extends SC_Plugin_Base {
 	
     function install($plugins) {
-    	// nop
+    	// TODO Copy files
     }
     
-    function uninstall($plugins) {
-        // nop
-    }
-    
-    function enable($plugins) {
-        // nop
-    }
-    
-    function disable($plugins) {
-        // nop
-    }
-
-    function register($helper_plugin) {
-        // nop
-    }
-    
-    function preProcess($page) {
-        // nop
-    }
-    
-    function process($page) {
-        // nop
-    }
 }
 ?>
