@@ -30,8 +30,16 @@
 class BUDPatch002 extends SC_Plugin_Base {
 	
     function install($plugins) {
-    	// TODO Copy files
+    	if (copy(PLUGIN_UPLOAD_REALDIR . "BUDPatch002/files/Tar.php", DATA_REALDIR . "module/Archive/Tar.php") === false);
+    }
+	
+    function uninstall($plugins) {
     }
     
+    function enable($plugins) {
+    }
+    
+    function disable($plugins) {
+    }
 }
 ?>

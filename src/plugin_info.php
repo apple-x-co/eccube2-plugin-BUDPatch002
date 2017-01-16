@@ -33,7 +33,7 @@ class plugin_info{
     static $PLUGIN_VERSION    = "1.0.0";
     static $COMPLIANT_VERSION = "2.12.0";
     static $AUTHOR            = "Buddying Inc.";
-    static $DESCRIPTION       = "PHP5.5以上でEC-CUBE2.13系を使用した場合、一部のライブラリが古く動作しない問題を修正";
+    static $DESCRIPTION       = "PHP5.5以上でEC-CUBE2.12系を使用した場合、一部のライブラリが古く動作しない問題を修正";
     static $PLUGIN_SITE_URL   = "http://buddying.jp/eccube/plugins/2/BUDPatch002/";
     static $AUTHOR_SITE_URL   = "http://buddying.jp/";
     static $CLASS_NAME        = "BUDPatch002";
